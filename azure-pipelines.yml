@@ -37,7 +37,7 @@ stages:
     pool:
       vmImage: 'ubuntu-latest'
     variables: 
-    - group: TeraformEnvVars
+    - group: terraformEnvVars
     steps:
     - script: |
         set -e
